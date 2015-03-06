@@ -9,8 +9,8 @@ Goto Settings>Asterisk Manager Users> Add Manager with a name like queuestats an
 
 Goto Settings>PHPAGI Config> under Asterisk API settings Choose Manager: queuestats. Submit changes.
 
-Put files in /var/www/html/ into a folder like queuestats
+Browse CentOS to /var/www/html/. Create a folder called queuestats (or whatever you would like) and drop in index.php
 
-Browse to http://freepbxip/queuestats/ and there it is!
+Browse to http://FreePBXip/queuestats/ and there it is!
 
-NOTE: Queue members must be dymamic.  In your queue settings make sure to set reset queue stats nightly/weekly.
+NOTE: Queue members must be dymamic.  In your queue settings make sure to set reset queue stats nightly/weekly.  It's basic PHP very easy to customize to your cosmetic likings.
